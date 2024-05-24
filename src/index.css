@@ -5,6 +5,7 @@
   font-family: sans-serif;
 }
 #root{
+  height: 100vh;
   animation: fadeIn 1.5s;
 }
 @keyframes fadeIn {
