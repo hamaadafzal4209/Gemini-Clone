@@ -1,12 +1,11 @@
-import Main from "./components/main/main"
-import Sidebar from "./components/sidebar/sidebar"
+import Sidebar from './Components/Sidebar/Sidebar'
+import Main from './Components/Main/Main'
 
-
-const App = () => {
+function App() {
   return (
     <div>
-      <Sidebar />
-      <Main />
+      <Sidebar/>
+      <Main/>
     </div>
   )
 }
